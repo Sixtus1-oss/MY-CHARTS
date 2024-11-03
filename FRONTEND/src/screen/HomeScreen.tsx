@@ -1,7 +1,11 @@
-import React from "react";
+import { PopulationScreen } from "./PopulationScreen";
 
 const HomeScreen = () => {
-  return <div></div>;
+  return (
+    <div>
+      <PopulationScreen />
+    </div>
+  );
 };
 
 export default HomeScreen;

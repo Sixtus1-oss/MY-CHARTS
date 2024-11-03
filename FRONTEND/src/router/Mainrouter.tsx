@@ -15,12 +15,12 @@ export const mainRouter = createBrowserRouter([
         element: <HomeScreen />,
       },
       {
-        index: true,
+        // index: true,
         path: "economic",
         element: <EconomicScreen />,
       },
       {
-        index: true,
+        // index: true,
         path: "population",
         element: <PopulationScreen />,
       },
